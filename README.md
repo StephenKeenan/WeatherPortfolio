@@ -1,5 +1,9 @@
 # 06 Server-Side APIs: Weather Dashboard
 
+This app allows the user to search for a city, which will display the city's current weather conditions, giving data for temperature, humidity, the UV index, and an icon indicating conditions such as rain or cloudy conditions. The app will also generate a 5 day forecast for the city showing similar data as predicted at 12PM. Refreshing the browser or closing and reopening the tab will open up results for the last city searched for. Previous searches are saved in local storage until the "Clear History" button is selected, and users can select a previously searched city to review the weather for that location. This app uses both the Open Weather Map data API and the javascript Date object. It is deployed live at https://stephenkeenan.github.io/WeatherPortfolio/
+
+
+
 Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 
 Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use `localStorage` to store any persistent data.
@@ -41,6 +45,7 @@ You are required to submit the following for review:
 * The URL of the deployed application.
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
