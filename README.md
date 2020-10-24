@@ -2,7 +2,7 @@
 
 This app allows the user to search for a city, which will display the city's current weather conditions, giving data for temperature, humidity, the UV index, and an icon indicating conditions such as rain or cloudy conditions. The app will also generate a 5 day forecast for the city showing similar data as predicted at 12PM. Refreshing the browser or closing and reopening the tab will open up results for the last city searched for. Previous searches are saved in local storage until the "Clear History" button is selected, and users can select a previously searched city to review the weather for that location. This app uses both the Open Weather Map data API and the javascript Date object. It is deployed live at https://stephenkeenan.github.io/WeatherPortfolio/
 
-
+##Instructions
 
 Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 
