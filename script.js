@@ -12,12 +12,11 @@ function initPage() {
     let searchHistory = JSON.parse(localStorage.getItem("search")) || [];
     console.log(searchHistory);
 
-
     const APIKey = "9abdc4167a2ad6a56bbba9e93cc92a5a";
-   
+
     //Read the city name entered by user when search button is clicked
     function getWeather(cityName) {
-        
+
         //  Using saved city name, execute a current condition get request from open weather map api
         let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + APIKey;
         axios.get(queryURL)
