@@ -1,51 +1,37 @@
-# 06 Server-Side APIs: Weather Dashboard
+# Weather Dashboard
 
-This app allows the user to search for a city, which will display the city's current weather conditions, giving data for temperature, humidity, the UV index, and an icon indicating conditions such as rain or cloudy conditions. The app will also generate a 5 day forecast for the city showing similar data as predicted at 12PM. Refreshing the browser or closing and reopening the tab will open up results for the last city searched for. Previous searches are saved in local storage until the "Clear History" button is selected, and users can select a previously searched city to review the weather for that location. This app uses both the Open Weather Map data API and the javascript Date object. It is deployed live at https://stephenkeenan.github.io/WeatherPortfolio/
+  ## Description
+  This app allows the user to search for a city, which will display the city's current weather conditions, giving data for temperature, humidity, the UV index, and an icon indicating conditions such as rain or cloudy conditions. The app will also generate a 5 day forecast for the city showing similar data as predicted at 12PM. Refreshing the browser or closing and reopening the tab will open up results for the last city searched for. Previous searches are saved in local storage until the "Clear History" button is selected, and users can select a previously searched city to review the weather for that location. This app uses both the Open Weather Map data API and the javascript Date object. 
 
-## Instructions
+  ## Live Deployment
+  https://stephenkeenan.github.io/WeatherPortfolio/
 
-Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+  ## Sample Image
 
-Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use `localStorage` to store any persistent data.
+  
+  ## Table of Contents
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contributors](#Contribution)
+  * [Testing](#Testing)
+  * [Licenses](#Licenses)
+  * [Questions](#Questions)
 
-## User Story
+  ## Installation
+  None
 
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+  ## Usage
+  Search for your city of choice using the search bar!
 
-## Acceptance Criteria
+  ## Contributors
+  None
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-WHEN I open the weather dashboard
-THEN I am presented with the last searched city forecast
-```
+  ## Testing
+  None
 
-The following image demonstrates the application functionality:
+  ## Licenses
+  None
 
-![weather dashboard demo](./assets/06-server-side-apis-homework-demo.png)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+  ## Questions
+  * <https://github.com/StephenKeenan>
+  * <stephenkeenan02@gmail.com>
