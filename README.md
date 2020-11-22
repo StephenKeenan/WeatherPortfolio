@@ -7,30 +7,7 @@
   https://stephenkeenan.github.io/WeatherPortfolio/
 
   ## Sample Image
-
-  
-  ## Table of Contents
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Contributors](#Contribution)
-  * [Testing](#Testing)
-  * [Licenses](#Licenses)
-  * [Questions](#Questions)
-
-  ## Installation
-  None
-
-  ## Usage
-  Search for your city of choice using the search bar!
-
-  ## Contributors
-  None
-
-  ## Testing
-  None
-
-  ## Licenses
-  None
+  https://github.com/StephenKeenan/WeatherPortfolio/blob/master/assets/Weather%20Dashboard.JPG
 
   ## Questions
   * <https://github.com/StephenKeenan>
