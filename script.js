@@ -100,6 +100,8 @@ function initPage() {
         return Math.floor((K - 273.15) * 1.8 + 32);
     }
 
+    //  Saves user's previous search requests and displays them underneath the search bar
+
     function renderSearchHistory() {
         historyEl.innerHTML = "";
         for (let i = 0; i < searchHistory.length; i++) {
@@ -119,10 +121,7 @@ function initPage() {
     if (searchHistory.length > 0) {
         getWeather(searchHistory[searchHistory.length - 1]);
     }
-
-
-    //  Save user's previous search requests and display them beneath the search form
-    //  Automatically generate current conditions and 5-day forecast for the last city the user searched for when page loads
-
 }
+
+//  When page loads, automatically generates both current conditions and 5-day forecast for the last city the user searched for    
 initPage();
